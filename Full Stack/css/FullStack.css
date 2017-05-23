@@ -1,0 +1,90 @@
+body {
+	background-color: #90BBCB;
+}
+
+#background {
+	background-image: url('../images/programming<>.jpg');
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 32pt;
+}
+h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+h1,h2,h3 {
+	text-align: center;
+	color: white;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.explanation {
+	font-family: 'Yatra One', cursive;
+	color: white;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 18pt;
+	font-weight: bold;
+}
+.definition {
+	font-family: 'Quicksand', cursive;
+	font-size: 12pt;
+	font-weight: bold;
+}
+.image_link {
+	font-family: 'Pacifico', cursive;
+	font-size: 120%;
+	color: #87CEEB;
+	font-weight: normal;
+	text-decoration: none;
+}
+.image_link:hover {
+	text-shadow: 6px 6px 3px #000,
+	-1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.inline_link {
+	font-weight: bold;
+	color:#0000FF;
+	text-decoration: none;
+	font-size: 120%;
+}
+.inline_link:hover {
+	background-color: #3366ff;
+	color: white;
+	border-radius: 20%;
+}
+.hr01 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 15px solid #87CEEB;
+}
+.italic {
+	font-style: italic;
+}
+.drawing_link {
+	font-size: 120%;
+	text-decoration: none;
+	color:#87CEEB;
+}
+.drawing_link:hover {
+	text-shadow: 6px 6px 3px #000,
+	-1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+@font-face { font-family: OCRA; src: url('../fonts/ocraextended.ttf'); 
